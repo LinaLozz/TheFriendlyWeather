@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendly Weather by Lina Lozano</title>
+
+     <!-- Template Main CSS File -->
+     <link rel="stylesheet" href = "css-weather/weather.css" type="text/css">
+
+     <!-- Google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<h1>The Friendly Weather!</h1>
+<body>
+    <main>
+        <div class="search-form">
+            <form id="searchForm">
+                <div class="searchBox">
+                    <input type="text" autocomplete="off" placeholder="Search for a city..." class="search" id="searchBox" />
+                </div>
+            </form>
+        </div>
+        <div class="weather-card" id="card">
+            <div class="city" id="city"></div>
+            <div class="date" id="date"></div>
+            <div class="temperature">
+                <img src="images-weather/calentar.png" class="temp-img" id="temp-img"/>
+                <div class="temp" id="temp"></div>
+            </div>
+            <div class="weather" id="weather"></div>
+            <div class="range" id="range" style="font-weight: bold;"></div>
+        </div>  
+    </main>
+    
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="FooterContainer">
+            <div class="copyright">
+              &copy; Copyright.<span>2022 Lina L</span> | Designed by Lina Lozano
+            </div>
+          </div>
+    </footer>
+    
+    <!-- Template Main JS File -->
+    <script type="text/javascript" src="js-weather/weather.js"></script> 
+</body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+.root{
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    background-image: radial-gradient(circle at 50% -20.71%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
+    background-position: 0 0, bottom left;
+    background-origin: padding-box, content-box;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.search-form{
+    margin: 20px 20px;
+}
+
+.searchBox {
+    padding: 10px 20px;
+    background-color: white;
+    max-width: 480px;
+    margin: 0px auto;
+    border-radius: 5px; 
+}
+
+.search {
+    width: 100%;
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.weather-card {
+    margin: 20px 20px;
+    background: url(../images-weather/Montaje.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+}
+
+.city {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.temp-img {
+    width: 60px;
+    margin-right: 10px;
+
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.temp {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.weather {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    position: fixed;
+    bottom: 0;
+    background: rgb(f, f, f, .5);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+}
